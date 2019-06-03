@@ -1,17 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import networkx as nx
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
 import math
-
-
-# In[2]:
 
 
 if(len(sys.argv)<6):
@@ -20,7 +14,6 @@ if(len(sys.argv)<6):
     print("Defaults are: [distance cutoff]=3.2 [angle cutoff]=130 [max number of molecules in a cycle]=10")
     sys.exit()
 #Input Variables
-print(len(sys.argv))
 InputFile = sys.argv[1]
 OutputFile = sys.argv[2]
 NumMolec = int(sys.argv[3])
@@ -30,9 +23,6 @@ hydrogen = sys.argv[6]
 #NumMolec=256
 outfile= open(OutputFile,"w")
 infile= open(InputFile,"r")
-#resname="MOH"
-#oxygen="O1"
-#hydrogen="HO1"
 distcut=3.2
 angcut=130.0
 cyccut=10
@@ -110,8 +100,6 @@ for x in lines:
 outfile.close()
 infile.close()
 
-
-# In[ ]:
 
 
 
