@@ -1,5 +1,5 @@
 # find-cycles
-This is python3/Jupyter Notebook code that utilizes the NetworkX package (https://networkx.github.io/) to locate cyclic structures within an MD simulation. Specifically, it was written to find cyclical N-mers in an MD simulation of liquid methanol, i.e. methanols hydrogen bonding to each other in a cycliccal fashion. However, it should work for any hydrogen-bonding solvent.
+This is python3/Jupyter Notebook code that utilizes the NetworkX package (https://networkx.github.io/) to locate cyclic structures within an MD simulation. Specifically, it was written to find cyclical N-mers in an MD simulation of liquid methanol, i.e. methanols hydrogen bonding to each other in a cyclical fashion. However, it should work for any hydrogen-bonding solvent.
 
 This script requires the following arguments (arguments in [] are optional):
     
