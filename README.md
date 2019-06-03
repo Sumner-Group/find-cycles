@@ -10,7 +10,7 @@ This script requires the following arguments (arguments in [] are optional):
   Currently, the InputFile must be a PDB.
   
   
-  Included are input files (three frames of an MD simulation of 246 methaol molecules) and the output file. To generate the output, type:
+  Included are input files (three frames of an MD simulation of 256 methaol molecules) and the output file. To generate the output, type:
   
     python3 cycle-test.py MeOH256-2frames.pdb  MeOH256-2frames.cycles  256 MOH O1 HO1
 
