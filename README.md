@@ -12,6 +12,6 @@ This script requires the following arguments (arguments in [] are optional):
   
   Included are input files (three frames of an MD simulation of 256 methanol molecules) and the output file. To generate the output, type:
   
-    python3 cycle-test.py MeOH256-2frames.pdb  MeOH256-2frames.cycles  256 MOH O1 HO1
+    python3 find-cycle.py MeOH256-2frames.pdb  MeOH256-2frames.cycles  256 MOH O1 HO1
 
 The output shows the molecule numbers invilved in the cycle, the number of molecules forming the cycle, the geometry (frame) number, and the total percent of molecules in a frame involved in the cycle.
