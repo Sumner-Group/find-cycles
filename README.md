@@ -15,3 +15,7 @@ This script requires the following arguments (arguments in [] are optional):
     python3 find-cycles.py MeOH256-2frames.pdb  MeOH256-2frames.cycles  256 MOH O1 HO1
 
 The output shows the molecule numbers invilved in the cycle, the number of molecules forming the cycle, the geometry (frame) number, and the total percent of molecules in a frame involved in the cycle.
+
+**Do you want to cite this work?**
+--
+[![DOI](https://zenodo.org/badge/189600028.svg)](https://zenodo.org/badge/10.5281/zenodo.3612511/189600028)
