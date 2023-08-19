@@ -18,4 +18,4 @@ The output shows the molecule numbers invilved in the cycle, the number of molec
 
 **Do you want to cite this work?**
 --
-[![DOI](https://zenodo.org/badge/189600028.svg)](https://zenodo.org/badge/10.5281/zenodo.3612511/189600028)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3612511.svg)](https://doi.org/10.5281/zenodo.3612511)
